@@ -1,3 +1,4 @@
+// example of types
 const a: string = 'hello'
 const n: number = 3
 const b: boolean = true
