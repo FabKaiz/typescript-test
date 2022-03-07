@@ -1,10 +1,15 @@
-import './App.css';
-import Header from './Header'
+import React from 'react';
 
-function App() {
+import Header from './Header'
+import InputField from './components/InputField/InputField';
+
+import './App.css';
+
+const App: React.FC = () => {
   return (
     <div className="App">
-      <Header title="Hello TypeScript" color='#1CE' />
+      <Header title="Taskify" color='#1CE' />
+      <InputField />
     </div>
   );
 }
